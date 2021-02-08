@@ -1,0 +1,45 @@
+
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: i386-w64-mingw32/i386 (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> m <- matrix(rnorm(32),8,8)
+> m1 <- makeCacheMatrix(m)
+Error in makeCacheMatrix(m) : could not find function "makeCacheMatrix"
+> m<-matrix(rnorm(32),8,8)
+> m
+           [,1]       [,2]       [,3]       [,4]       [,5]       [,6]
+[1,] -0.6475144 -0.5830903 -0.1620418 -0.3054276 -0.6475144 -0.5830903
+[2,] -0.7747144 -0.3534492 -0.5652080  0.4345287 -0.7747144 -0.3534492
+[3,]  0.9425980 -1.2054272 -1.2189342 -1.3225107  0.9425980 -1.2054272
+[4,] -0.9282610  1.3870094 -0.5047411 -1.4019525 -0.9282610  1.3870094
+[5,] -0.9870052 -0.4475971  0.9120419  0.7843699 -0.9870052 -0.4475971
+[6,]  2.7021564 -1.5674277 -0.3366399  1.0030920  2.7021564 -1.5674277
+[7,] -0.1323185  0.4804638  0.6050477 -1.4008764 -0.1323185  0.4804638
+[8,] -0.5202957 -0.3990244  0.3539604 -1.0119257 -0.5202957 -0.3990244
+           [,7]       [,8]
+[1,] -0.1620418 -0.3054276
+[2,] -0.5652080  0.4345287
+[3,] -1.2189342 -1.3225107
+[4,] -0.5047411 -1.4019525
+[5,]  0.9120419  0.7843699
+[6,] -0.3366399  1.0030920
+[7,]  0.6050477 -1.4008764
+[8,]  0.3539604 -1.0119257
+> 
